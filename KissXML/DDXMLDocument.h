@@ -57,7 +57,7 @@ typedef NSUInteger DDXMLDocumentContentKind;
 //- (void)setDTD:(DDXMLDTD *)documentTypeDeclaration;
 //- (DDXMLDTD *)DTD;
 
-//- (void)setRootElement:(DDXMLNode *)root;
+- (void)setRootElement:(DDXMLNode *)root;
 - (DDXMLElement *)rootElement;
 
 //- (void)insertChild:(DDXMLNode *)child atIndex:(NSUInteger)index;
